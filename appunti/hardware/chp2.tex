@@ -1,0 +1,46 @@
+\section{Micro Controller Units}
+MCUs are designed for application-specific tasks, often with real-time
+computing constraints. They are typically used in embedded systems, where they
+control specific functions within a larger system. MCUs are characterized by
+their low power consumption, small size, and integrated peripherals, making
+them ideal for applications such as home automation, wearable devices, and
+industrial control systems.
+\begin{tcolorbox}
+    \textbf{Examples}
+    \begin{itemize}
+        \item \textbf{Arduino}: A popular open-source platform based on easy-to-use hardware and software. It is widely used for prototyping and educational purposes.
+        \item \textbf{Raspberry Pi Pico}: A low-cost microcontroller board based on the RP2040 chip, designed for embedded applications.
+        \item \textbf{ESP8266/ESP32}: Wi-Fi-enabled microcontrollers that are commonly used in IoT projects for their wireless communication capabilities.
+        \item \textbf{BLE Microcontrollers}: Such as the Nordic Semiconductor nRF52 series, which are designed for low-power Bluetooth applications.
+        \item \textbf{NXP LCP1102/1104}: 32-bit microcontrollers designed for low-power applications, 32KB flash memory, 8KB RAM, and various peripherals for IoT applications.
+        \item \textbf{Microchip PIC18F24Q10}: A 16-bit microcontroller with integrated USB and CAN interfaces, suitable for automotive and industrial applications.
+    \end{itemize}
+\end{tcolorbox}
+\subsection{MPU vs MCU}
+MPUs (Microprocessor Units) and MCUs (Microcontroller Units) are both types of
+integrated circuits used in computing, but they serve different purposes and
+have distinct characteristics.
+\begin{tcolorbox}
+    \textbf{MPU (Microprocessor Unit)}
+    \begin{itemize}
+        \item Designed for general-purpose computing tasks.
+        \item Typically requires external components such as memory and peripherals to
+              function.
+        \item Used in applications like personal computers, servers, and high-performance
+              embedded systems.
+        \item Examples include Intel x86 processors and ARM Cortex-A series.
+    \end{itemize}
+\end{tcolorbox}
+\begin{tcolorbox}
+    \textbf{MCU (Microcontroller Unit)}
+    \begin{itemize}
+        \item Designed for specific control-oriented tasks.
+        \item Integrates memory, peripherals, and processing capabilities on a single chip.
+        \item Used in embedded systems, IoT devices, and applications requiring low power
+              consumption.
+        \item Examples include Arduino, Raspberry Pi Pico, and ESP8266/ESP32.
+    \end{itemize}
+\end{tcolorbox}
+What about ARM? ARM isn't a company that produces microcontrollers, but rather a company that designs the architecture and licenses it to other manufacturers. Many microcontrollers, including those used in IoT devices, are based on ARM architecture. For example, the ARM Cortex-M series is widely used in microcontrollers for embedded applications. So while ARM itself doesn't produce microcontrollers, its architecture is fundamental to many of the MCUs available on the market.
+What is the difference between Power and Energy? Power is istantaneous, while energy is the total amount of work done over time, in fact we can calculate energy as: $E(t) = \int_{t_0}^{t} P(t) dt$.
+what is a duty cycle? Duty cycle is the percentage of time a system is active compared to the total time it could be active.
