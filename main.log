@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.28)  27 FEB 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.28)  6 MAR 2026 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,28 +593,61 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count350
+ (appunti/software/cph1.tex) (appunti/hardware/chp2.tex
+
+[1
+
+{C:/Users/peppe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (appunti/hardware/chp3.tex
+
+[2]
+
+[3]
+<foto/hardware/cph3/1.png, id=24, 1003.75pt x 707.64375pt>
+File: foto/hardware/cph3/1.png Graphic file (type png)
+<use foto/hardware/cph3/1.png>
+Package pdftex.def Info: foto/hardware/cph3/1.png  used on input line 132.
+(pdftex.def)             Requested size: 256.07481pt x 180.52776pt.
+<foto/hardware/cph3/2.png, id=26, 795.97375pt x 470.75874pt>
+File: foto/hardware/cph3/2.png Graphic file (type png)
+<use foto/hardware/cph3/2.png>
+Package pdftex.def Info: foto/hardware/cph3/2.png  used on input line 157.
+(pdftex.def)             Requested size: 230.46576pt x 136.30104pt.
 
 
-! LaTeX Error: File `appunti/software/cph1.tex' not found.
+[4 <./foto/hardware/cph3/1.png> <./foto/hardware/cph3/2.png (PNG copy)>]) (appunti/hardware/cph5.tex) (appunti/hardware/cph6.tex
+<foto/hardware/cph6/1.png, id=31, 517.935pt x 344.03531pt>
+File: foto/hardware/cph6/1.png Graphic file (type png)
+<use foto/hardware/cph6/1.png>
+Package pdftex.def Info: foto/hardware/cph6/1.png  used on input line 5.
+(pdftex.def)             Requested size: 307.2929pt x 204.12347pt.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: 
-c:/Users/peppe/Documents/VScode/IoT/main.tex:30: Emergency stop.
-<read *> 
-         
-l.30 \input{appunti/software/cph1.tex}
-                                      ^^M
-*** (cannot \read from terminal in nonstop modes)
+[5]
+<foto/hardware/cph6/2.png, id=35, 529.98pt x 144.54pt>
+File: foto/hardware/cph6/2.png Graphic file (type png)
+<use foto/hardware/cph6/2.png>
+Package pdftex.def Info: foto/hardware/cph6/2.png  used on input line 21.
+(pdftex.def)             Requested size: 307.2929pt x 83.80678pt.
+)
 
- 
+[6 <./foto/hardware/cph6/1.png> <./foto/hardware/cph6/2.png>] (main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-29>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 18163 strings out of 469923
- 369472 string characters out of 5469170
- 731394 words of memory out of 5000000
- 44704 multiletter control sequences out of 15000+600000
- 630841 words of font info for 54 fonts, out of 8000000 for 9000
+ 18319 strings out of 469923
+ 373672 string characters out of 5469170
+ 745394 words of memory out of 5000000
+ 44835 multiletter control sequences out of 15000+600000
+ 632245 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,6n,121p,475b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
-c:/Users/peppe/Documents/VScode/IoT/main.tex:30:  ==> Fatal error occurred, no output PDF file produced!
+ 116i,11n,121p,611b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\peppe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/peppe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (6 pages, 358082 bytes).
+PDF statistics:
+ 82 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
